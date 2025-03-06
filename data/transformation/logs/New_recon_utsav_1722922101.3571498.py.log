@@ -1,0 +1,213 @@
+Warning: Ignoring non-Spark config property: hive.metastore.uris
+Warning: Ignoring non-Spark config property: fs.azure.account.key.r2rdevblobstorage.dfs.core.windows.net
+:: loading settings :: url = jar:file:/usr/local/spark/jars/ivy-2.5.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /Users/akshay/.ivy2/cache
+The jars for the packages stored in: /Users/akshay/.ivy2/jars
+org.apache.iceberg#iceberg-spark-runtime-3.3_2.13 added as a dependency
+org.apache.hadoop#hadoop-azure added as a dependency
+org.apache.hadoop#hadoop-common added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-a1a2bbab-601c-477e-9eed-953da9cb6342;1.0
+	confs: [default]
+	found org.apache.iceberg#iceberg-spark-runtime-3.3_2.13;1.5.2 in central
+	found org.apache.hadoop#hadoop-azure;3.3.6 in central
+	found org.apache.httpcomponents#httpclient;4.5.13 in central
+	found org.apache.httpcomponents#httpcore;4.4.13 in central
+	found commons-logging#commons-logging;1.1.3 in central
+	found commons-codec#commons-codec;1.15 in central
+	found com.microsoft.azure#azure-storage;7.0.1 in central
+	found com.microsoft.azure#azure-keyvault-core;1.0.0 in central
+	found org.apache.hadoop.thirdparty#hadoop-shaded-guava;1.1.1 in central
+	found org.eclipse.jetty#jetty-util-ajax;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-util;9.4.51.v20230217 in central
+	found org.wildfly.openssl#wildfly-openssl;1.1.3.Final in central
+	found org.apache.hadoop#hadoop-common;3.3.6 in central
+	found org.apache.hadoop.thirdparty#hadoop-shaded-protobuf_3_7;1.1.1 in central
+	found org.apache.hadoop#hadoop-annotations;3.3.6 in central
+	found com.google.guava#guava;27.0-jre in central
+	found com.google.guava#failureaccess;1.0 in central
+	found com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava in central
+	found com.google.code.findbugs#jsr305;3.0.2 in central
+	found org.checkerframework#checker-qual;2.5.2 in central
+	found com.google.j2objc#j2objc-annotations;1.1 in central
+	found org.codehaus.mojo#animal-sniffer-annotations;1.17 in central
+	found commons-cli#commons-cli;1.2 in central
+	found org.apache.commons#commons-math3;3.1.1 in central
+	found commons-io#commons-io;2.8.0 in central
+	found commons-net#commons-net;3.9.0 in central
+	found commons-collections#commons-collections;3.2.2 in central
+	found javax.servlet#javax.servlet-api;3.1.0 in central
+	found org.eclipse.jetty#jetty-server;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-http;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-io;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-servlet;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-security;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-webapp;9.4.51.v20230217 in central
+	found org.eclipse.jetty#jetty-xml;9.4.51.v20230217 in central
+	found com.sun.jersey#jersey-core;1.19.4 in central
+	found javax.ws.rs#jsr311-api;1.1.1 in central
+	found com.sun.jersey#jersey-servlet;1.19.4 in central
+	found com.sun.jersey#jersey-server;1.19.4 in central
+	found com.github.pjfanning#jersey-json;1.20 in central
+	found org.codehaus.jettison#jettison;1.5.4 in central
+	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in central
+	found javax.xml.bind#jaxb-api;2.2.11 in central
+	found ch.qos.reload4j#reload4j;1.2.22 in central
+	found commons-beanutils#commons-beanutils;1.9.4 in central
+	found org.apache.commons#commons-configuration2;2.8.0 in central
+	found org.apache.commons#commons-text;1.10.0 in central
+	found org.apache.commons#commons-lang3;3.12.0 in central
+	found org.slf4j#slf4j-api;1.7.36 in central
+	found org.slf4j#slf4j-reload4j;1.7.36 in central
+	found org.apache.avro#avro;1.7.7 in central
+	found org.codehaus.jackson#jackson-core-asl;1.9.13 in central
+	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in central
+	found com.thoughtworks.paranamer#paranamer;2.3 in central
+	found org.xerial.snappy#snappy-java;1.1.8.2 in central
+	found org.apache.commons#commons-compress;1.21 in central
+	found com.google.re2j#re2j;1.1 in central
+	found com.google.protobuf#protobuf-java;2.5.0 in central
+	found com.google.code.gson#gson;2.9.0 in central
+	found org.apache.hadoop#hadoop-auth;3.3.6 in central
+	found com.nimbusds#nimbus-jose-jwt;9.8.1 in central
+	found com.github.stephenc.jcip#jcip-annotations;1.0-1 in central
+	found org.apache.zookeeper#zookeeper;3.6.3 in central
+	found org.apache.zookeeper#zookeeper-jute;3.6.3 in central
+	found org.apache.yetus#audience-annotations;0.5.0 in central
+	found io.dropwizard.metrics#metrics-core;3.2.4 in central
+	found org.apache.curator#curator-framework;5.2.0 in central
+	found org.apache.curator#curator-client;5.2.0 in central
+	found org.apache.kerby#kerb-simplekdc;1.0.1 in central
+	found org.apache.kerby#kerb-client;1.0.1 in central
+	found org.apache.kerby#kerby-config;1.0.1 in central
+	found org.apache.kerby#kerb-core;1.0.1 in central
+	found org.apache.kerby#kerby-pkix;1.0.1 in central
+	found org.apache.kerby#kerby-asn1;1.0.1 in central
+	found org.apache.kerby#kerby-util;1.0.1 in central
+	found org.apache.kerby#kerb-common;1.0.1 in central
+	found org.apache.kerby#kerb-crypto;1.0.1 in central
+	found org.apache.kerby#kerb-util;1.0.1 in central
+	found org.apache.kerby#token-provider;1.0.1 in central
+	found org.apache.kerby#kerb-admin;1.0.1 in central
+	found org.apache.kerby#kerb-server;1.0.1 in central
+	found org.apache.kerby#kerb-identity;1.0.1 in central
+	found org.apache.kerby#kerby-xdr;1.0.1 in central
+	found com.jcraft#jsch;0.1.55 in central
+	found org.apache.curator#curator-recipes;5.2.0 in central
+	found com.fasterxml.jackson.core#jackson-databind;2.12.7.1 in central
+	found com.fasterxml.jackson.core#jackson-annotations;2.12.7 in central
+	found com.fasterxml.jackson.core#jackson-core;2.12.7 in central
+	found org.codehaus.woodstox#stax2-api;4.2.1 in central
+	found com.fasterxml.woodstox#woodstox-core;5.4.0 in central
+	found dnsjava#dnsjava;2.1.7 in central
+	found jakarta.activation#jakarta.activation-api;1.2.1 in central
+	found javax.servlet.jsp#jsp-api;2.1 in central
+:: resolution report :: resolve 686ms :: artifacts dl 15ms
+	:: modules in use:
+	ch.qos.reload4j#reload4j;1.2.22 from central in [default]
+	com.fasterxml.jackson.core#jackson-annotations;2.12.7 from central in [default]
+	com.fasterxml.jackson.core#jackson-core;2.12.7 from central in [default]
+	com.fasterxml.jackson.core#jackson-databind;2.12.7.1 from central in [default]
+	com.fasterxml.woodstox#woodstox-core;5.4.0 from central in [default]
+	com.github.pjfanning#jersey-json;1.20 from central in [default]
+	com.github.stephenc.jcip#jcip-annotations;1.0-1 from central in [default]
+	com.google.code.findbugs#jsr305;3.0.2 from central in [default]
+	com.google.code.gson#gson;2.9.0 from central in [default]
+	com.google.guava#failureaccess;1.0 from central in [default]
+	com.google.guava#guava;27.0-jre from central in [default]
+	com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava from central in [default]
+	com.google.j2objc#j2objc-annotations;1.1 from central in [default]
+	com.google.protobuf#protobuf-java;2.5.0 from central in [default]
+	com.google.re2j#re2j;1.1 from central in [default]
+	com.jcraft#jsch;0.1.55 from central in [default]
+	com.microsoft.azure#azure-keyvault-core;1.0.0 from central in [default]
+	com.microsoft.azure#azure-storage;7.0.1 from central in [default]
+	com.nimbusds#nimbus-jose-jwt;9.8.1 from central in [default]
+	com.sun.jersey#jersey-core;1.19.4 from central in [default]
+	com.sun.jersey#jersey-server;1.19.4 from central in [default]
+	com.sun.jersey#jersey-servlet;1.19.4 from central in [default]
+	com.sun.xml.bind#jaxb-impl;2.2.3-1 from central in [default]
+	com.thoughtworks.paranamer#paranamer;2.3 from central in [default]
+	commons-beanutils#commons-beanutils;1.9.4 from central in [default]
+	commons-cli#commons-cli;1.2 from central in [default]
+	commons-codec#commons-codec;1.15 from central in [default]
+	commons-collections#commons-collections;3.2.2 from central in [default]
+	commons-io#commons-io;2.8.0 from central in [default]
+	commons-logging#commons-logging;1.1.3 from central in [default]
+	commons-net#commons-net;3.9.0 from central in [default]
+	dnsjava#dnsjava;2.1.7 from central in [default]
+	io.dropwizard.metrics#metrics-core;3.2.4 from central in [default]
+	jakarta.activation#jakarta.activation-api;1.2.1 from central in [default]
+	javax.servlet#javax.servlet-api;3.1.0 from central in [default]
+	javax.servlet.jsp#jsp-api;2.1 from central in [default]
+	javax.ws.rs#jsr311-api;1.1.1 from central in [default]
+	javax.xml.bind#jaxb-api;2.2.11 from central in [default]
+	org.apache.avro#avro;1.7.7 from central in [default]
+	org.apache.commons#commons-compress;1.21 from central in [default]
+	org.apache.commons#commons-configuration2;2.8.0 from central in [default]
+	org.apache.commons#commons-lang3;3.12.0 from central in [default]
+	org.apache.commons#commons-math3;3.1.1 from central in [default]
+	org.apache.commons#commons-text;1.10.0 from central in [default]
+	org.apache.curator#curator-client;5.2.0 from central in [default]
+	org.apache.curator#curator-framework;5.2.0 from central in [default]
+	org.apache.curator#curator-recipes;5.2.0 from central in [default]
+	org.apache.hadoop#hadoop-annotations;3.3.6 from central in [default]
+	org.apache.hadoop#hadoop-auth;3.3.6 from central in [default]
+	org.apache.hadoop#hadoop-azure;3.3.6 from central in [default]
+	org.apache.hadoop#hadoop-common;3.3.6 from central in [default]
+	org.apache.hadoop.thirdparty#hadoop-shaded-guava;1.1.1 from central in [default]
+	org.apache.hadoop.thirdparty#hadoop-shaded-protobuf_3_7;1.1.1 from central in [default]
+	org.apache.httpcomponents#httpclient;4.5.13 from central in [default]
+	org.apache.httpcomponents#httpcore;4.4.13 from central in [default]
+	org.apache.iceberg#iceberg-spark-runtime-3.3_2.13;1.5.2 from central in [default]
+	org.apache.kerby#kerb-admin;1.0.1 from central in [default]
+	org.apache.kerby#kerb-client;1.0.1 from central in [default]
+	org.apache.kerby#kerb-common;1.0.1 from central in [default]
+	org.apache.kerby#kerb-core;1.0.1 from central in [default]
+	org.apache.kerby#kerb-crypto;1.0.1 from central in [default]
+	org.apache.kerby#kerb-identity;1.0.1 from central in [default]
+	org.apache.kerby#kerb-server;1.0.1 from central in [default]
+	org.apache.kerby#kerb-simplekdc;1.0.1 from central in [default]
+	org.apache.kerby#kerb-util;1.0.1 from central in [default]
+	org.apache.kerby#kerby-asn1;1.0.1 from central in [default]
+	org.apache.kerby#kerby-config;1.0.1 from central in [default]
+	org.apache.kerby#kerby-pkix;1.0.1 from central in [default]
+	org.apache.kerby#kerby-util;1.0.1 from central in [default]
+	org.apache.kerby#kerby-xdr;1.0.1 from central in [default]
+	org.apache.kerby#token-provider;1.0.1 from central in [default]
+	org.apache.yetus#audience-annotations;0.5.0 from central in [default]
+	org.apache.zookeeper#zookeeper;3.6.3 from central in [default]
+	org.apache.zookeeper#zookeeper-jute;3.6.3 from central in [default]
+	org.checkerframework#checker-qual;2.5.2 from central in [default]
+	org.codehaus.jackson#jackson-core-asl;1.9.13 from central in [default]
+	org.codehaus.jackson#jackson-mapper-asl;1.9.13 from central in [default]
+	org.codehaus.jettison#jettison;1.5.4 from central in [default]
+	org.codehaus.mojo#animal-sniffer-annotations;1.17 from central in [default]
+	org.codehaus.woodstox#stax2-api;4.2.1 from central in [default]
+	org.eclipse.jetty#jetty-http;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-io;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-security;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-server;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-servlet;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-util;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-util-ajax;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-webapp;9.4.51.v20230217 from central in [default]
+	org.eclipse.jetty#jetty-xml;9.4.51.v20230217 from central in [default]
+	org.slf4j#slf4j-api;1.7.36 from central in [default]
+	org.slf4j#slf4j-reload4j;1.7.36 from central in [default]
+	org.wildfly.openssl#wildfly-openssl;1.1.3.Final from central in [default]
+	org.xerial.snappy#snappy-java;1.1.8.2 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   93  |   0   |   0   |   0   ||   93  |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-a1a2bbab-601c-477e-9eed-953da9cb6342
+	confs: [default]
+	0 artifacts copied, 93 already retrieved (0kB/7ms)
+24/08/06 10:58:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/08/06 10:58:23 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+INFO:root:0
+INFO:py4j.clientserver:Closing down clientserver connection

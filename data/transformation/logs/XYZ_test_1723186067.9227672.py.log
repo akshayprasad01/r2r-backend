@@ -1,0 +1,6 @@
+  File "/Users/akshay/Desktop/r2r-service/bin/XYZ_test_1723186067.9227672.py", line 172
+    sftp_mkdirs(sftp=sftp, sftp_details['outputfileLocation'])
+                                                             ^
+SyntaxError: positional argument follows keyword argument
+INFO:root:0
+INFO:py4j.clientserver:Closing down clientserver connection

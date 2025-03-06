@@ -1,0 +1,6 @@
+  File "/Users/akshay/Desktop/r2r-service/bin/XYZ_test_1723183722.2828412.py", line 129
+    temp_dir = /var/folders/xf/sh56gf_d1f36847q7lqy6r900000gn/T/tmp6fuglgxi/66b36a2415cc9d927ab52816/66b4faab0658edd62ca1400a
+                                                                             ^
+SyntaxError: invalid decimal literal
+INFO:root:0
+INFO:py4j.clientserver:Closing down clientserver connection
