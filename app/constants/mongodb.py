@@ -1,0 +1,3 @@
+MONGODB_CLIENT_DETAILS_COLLECTION = "R2R_aira_transformation_sftpConnections"
+MONGODB_TRANSFORMATION_JOBS_COLLECTION = "R2R_aira_transformation_jobs"
+MONGODB_CLIENT_RECONS_COLLECTION = "R2R_aira_transformation_recon_collections"
